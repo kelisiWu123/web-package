@@ -1,3 +1,3 @@
-# WXT + React
+#  这是提供给React开发的网站导航谷歌插件
 
-This template should help get you started developing with React in WXT.
+目前功能较为简单 只提供对应网址的转跳
