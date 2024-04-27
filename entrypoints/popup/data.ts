@@ -18,6 +18,7 @@ export const mockData:MockDataType[] = [
     {
         name: 'react', father: true, children: [
             {name: 'React', iconName: 'React.png', url: 'https://react.docschina.org/'},
+            {name: 'React-技术揭秘-卡颂', iconName: 'React.png', url: 'https://react.iamkasong.com/'},
             {name: 'Lodash', iconName: 'React.png', url: 'https://www.lodashjs.com/'},
             {name: 'AHooks', iconName: 'React.png', url: 'https://ahooks.js.org/zh-CN/'},
             {name: 'React-Use',iconName: 'React.png',url:'https://github.com/zenghongtu/react-use-chinese/blob/master/README.md'},

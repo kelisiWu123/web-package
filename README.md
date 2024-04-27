@@ -9,6 +9,7 @@
 
 ### react
 - [React](https://react.docschina.org/)
+- [React技术揭秘卡颂](https://react.iamkasong.com/)
 - [Lodash](https://www.lodashjs.com/)
 - [AHooks](https://ahooks.js.org/zh-CN/)
 - [React-Use](https://github.com/zenghongtu/react-use-chinese/blob/master/README.md)
