@@ -16,20 +16,17 @@ export const mockData:MockDataType[] = [
         ]
     },
     {
-        name: 'react工具库', father: true, children: [
-            {name: 'Lodash', iconName: 'tools.png', url: 'https://www.lodashjs.com/'},
-            {name: 'AHooks', iconName: 'tools.png', url: 'https://ahooks.js.org/zh-CN/'},
-            {name: 'React-Use',iconName: 'tools.png',url:'https://github.com/zenghongtu/react-use-chinese/blob/master/README.md'}
+        name: 'react', father: true, children: [
+            {name: 'React', iconName: 'React.png', url: 'https://react.docschina.org/'},
+            {name: 'Lodash', iconName: 'React.png', url: 'https://www.lodashjs.com/'},
+            {name: 'AHooks', iconName: 'React.png', url: 'https://ahooks.js.org/zh-CN/'},
+            {name: 'React-Use',iconName: 'React.png',url:'https://github.com/zenghongtu/react-use-chinese/blob/master/README.md'},
+            {name: 'Build-You-React',iconName: 'React.png',url:'https://senior-frontend.pages.dev/sundry/react.html'}
         ]
     },
     {
         name: '前端代码规范', father: true, children: [
             {name: '状态管理规范', iconName: 'gf.png', url: 'https://jdf2e.github.io/jdc_fe_guide/docs/react/state/'},
-        ]
-    },
-    {
-        name: '京东', father: true, children: [
-            {name: 'NutUI-React', iconName: 'jd.png', url: 'https://ant-design.antgroup.com/components/overview-cn'},
         ]
     },
     {
@@ -46,9 +43,8 @@ export const mockData:MockDataType[] = [
     },
     {
         name: '开源项目趋势', father: true, children: [
-            {name: 'Github Trending', iconName: 'github.png', url: 'https://poe.com/'},
+            {name: 'Github Trending', iconName: 'github.png', url: 'https://github.com/trending'},
             {name: 'js生态调查报告', iconName: '2024.png', url: 'https://2022.stateofjs.com/en-US/'},
         ]
     }
-
 ]

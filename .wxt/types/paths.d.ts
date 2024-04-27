@@ -16,6 +16,7 @@ declare module "wxt/browser" {
     | "/icon/github.png"
     | "/icon/jd.png"
     | "/icon/poe.svg"
+    | "/icon/react.png"
     | "/icon/tools.png"
     | "/icon/ty.png"
     | "/icon/wd.png"

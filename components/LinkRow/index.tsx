@@ -12,15 +12,16 @@ type LinkRowPropsType = {
 const LinkRow:React.FC<LinkRowPropsType> = ({name,iconName,isFather,url,}) => {
     return (
         <div>
-            <div className={`${isFather ? styles.containerFather : styles.container}`}>
+            <div className={`${isFather ? styles.containerFather : styles.container}`} onClick={()=>{
+                if (!isFather)
+                window.open(url)
+            }}>
                 <div className={styles.icon}>
                     { !isFather ? returnSpace(5) : undefined}
                     <img src={`/icon/${iconName ?? 'wenjianjia.png'}`} className="logo" alt="antd logo" />
                 </div>
-                <div className={styles.text}>
-                <span onClick={()=>{
-                    window.open(url)
-                }}>{name}</span>
+                <div className={styles.text} >
+                <span >{name}</span>
                 </div>
 
             </div>
