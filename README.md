@@ -9,6 +9,7 @@
 
 ### react
 - [React](https://react.docschina.org/)
+- [JS框架语法特性对比](https://component-party.lainbo.com/)
 - [React技术揭秘卡颂](https://react.iamkasong.com/)
 - [Lodash](https://www.lodashjs.com/)
 - [AHooks](https://ahooks.js.org/zh-CN/)
