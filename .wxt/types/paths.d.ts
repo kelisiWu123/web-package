@@ -19,6 +19,7 @@ declare module "wxt/browser" {
     | "/icon/react.png"
     | "/icon/tools.png"
     | "/icon/ty.png"
+    | "/icon/typescript.png"
     | "/icon/wd.png"
     | "/icon/wenjianjia.png"
     | "/icon/wy.png"

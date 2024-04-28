@@ -25,6 +25,14 @@ export const mockData:MockDataType[] = [
             {name: 'Build-You-React',iconName: 'React.png',url:'https://senior-frontend.pages.dev/sundry/react.html'}
         ]
     },
+    //https://github.com/type-challenges/type-challenges/blob/main/README.zh-CN.md
+    {
+        name: 'TS', father: true, children: [
+            {name: 'TS中文网', iconName: 'typescript.png', url: 'https://ts.nodejs.cn/docs/handbook/utility-types.html'},
+            {name: 'Type-Hero', iconName: 'typescript.png', url: 'https://typehero.dev/aot-2023'},
+            {name: 'Type-Challenge',iconName: 'typescript.png',url:'https://github.com/type-challenges/type-challenges/blob/main/README.zh-CN.md'}
+        ]
+    },
     {
         name: '前端代码规范', father: true, children: [
             {name: '状态管理规范', iconName: 'gf.png', url: 'https://jdf2e.github.io/jdc_fe_guide/docs/react/state/'},

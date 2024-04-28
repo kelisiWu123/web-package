@@ -14,7 +14,10 @@
 - [AHooks](https://ahooks.js.org/zh-CN/)
 - [React-Use](https://github.com/zenghongtu/react-use-chinese/blob/master/README.md)
 - [Build-You-React](https://senior-frontend.pages.dev/sundry/react.html)
-
+- ### ts
+- [TS中文网](https://ts.nodejs.cn/docs/handbook/utility-types.html)
+- [Type-Hero](https://typehero.dev/aot-2023)
+- [Type-Challenge](https://github.com/type-challenges/type-challenges/blob/main/README.zh-CN.md)
 ### 前端代码规范
 - [状态管理规范](https://jdf2e.github.io/jdc_fe_guide/docs/react/state/)
 
