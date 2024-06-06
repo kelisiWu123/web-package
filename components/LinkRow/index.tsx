@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './index.module.less'
 import {returnSpace} from "@/components/LinkRow/utils.ts";
-
 type LinkRowPropsType = {
     name:string,
     iconName?:string,

@@ -23,7 +23,6 @@ export const mockData:MockDataType[] = [
             {name: 'Lodash', iconName: 'React.png', url: 'https://www.lodashjs.com/'},
             {name: 'AHooks', iconName: 'React.png', url: 'https://ahooks.js.org/zh-CN/'},
             {name: 'React-Use',iconName: 'React.png',url:'https://github.com/zenghongtu/react-use-chinese/blob/master/README.md'},
-            {name: 'Build-You-React',iconName: 'React.png',url:'https://senior-frontend.pages.dev/sundry/react.html'}
         ]
     },
     //https://github.com/type-challenges/type-challenges/blob/main/README.zh-CN.md
@@ -51,6 +50,7 @@ export const mockData:MockDataType[] = [
             {name: '印记中文', iconName: 'wd.png', url: 'https://www.docschina.org/'},
         ]
     },
+
     {
         name: '开源项目趋势', father: true, children: [
             {name: 'Github Trending', iconName: 'github.png', url: 'https://github.com/trending'},
