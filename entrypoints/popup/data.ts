@@ -23,6 +23,7 @@ export const mockData:MockDataType[] = [
             {name: 'Lodash', iconName: 'React.png', url: 'https://www.lodashjs.com/'},
             {name: 'AHooks', iconName: 'React.png', url: 'https://ahooks.js.org/zh-CN/'},
             {name: 'React-Use',iconName: 'React.png',url:'https://github.com/zenghongtu/react-use-chinese/blob/master/README.md'},
+            {name: 'Class and Function component',iconName: 'React.png',url: 'https://overreacted.io/how-are-function-components-different-from-classes/'}
         ]
     },
     //https://github.com/type-challenges/type-challenges/blob/main/README.zh-CN.md
