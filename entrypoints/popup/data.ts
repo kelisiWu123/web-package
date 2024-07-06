@@ -31,6 +31,7 @@ export const mockData:MockDataType[] = [
     {
         name: 'TS', father: true, children: [
             {name: 'TS中文网', iconName: 'typescript.png', url: 'https://ts.nodejs.cn/docs/handbook/utility-types.html'},
+            {name: 'TS使用手册', iconName: 'typescript.png', url: 'https://www.patrickzhong.com/TypeScript/PREFACE.html'},
             {name: 'Type-Hero', iconName: 'typescript.png', url: 'https://typehero.dev/aot-2023'},
             {name: 'Type-Challenge',iconName: 'typescript.png',url:'https://github.com/type-challenges/type-challenges/blob/main/README.zh-CN.md'}
         ]
