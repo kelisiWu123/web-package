@@ -19,7 +19,7 @@
 - [React-Use](https://github.com/zenghongtu/react-use-chinese/blob/master/README.md)
 - [JS 框架语法特性对比](https://component-party.lainbo.com/)
 - [ES6 -书栈网](https://www.bookstack.cn/read/es6-3rd/README.md)
-- [github 代码检索工具 -书栈网](https://sourcegraph.com/search)
+- [github 代码检索工具](https://sourcegraph.com/search)
 
 ### TS
 
