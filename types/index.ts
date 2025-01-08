@@ -5,7 +5,7 @@ export interface Website {
   url: string
   description: string
   category: string
-  timestamp: number
+  timestamp?: number
 }
 
 // 分类数据接口
