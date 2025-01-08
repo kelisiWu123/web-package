@@ -1,59 +1,77 @@
-# 这是提供给 React 开发的网站导航谷歌插件
+# React 网站导航 Chrome 扩展
 
-目前功能较为简单 只提供对应网址的转跳
+一个为 React 开发者设计的网站导航 Chrome 扩展，帮助开发者更高效地管理和访问开发资源。
 
-### 阿里系
+## 功能特点
 
-- [Ant-Design](https://ant-design.antgroup.com/components/overview-cn)
-- [Ant-Mobile](https://ant-design-mobile.antgroup.com/zh/guide/quick-start)
-- [Ant-ProComponents](https://pro-components.antdigital.dev/components)
-- [Umi](https://umijs.org/docs/guides/getting-started)
-- [Dumi](https://d.umijs.org/)
-- [通义](https://tongyi.aliyun.com/)
+- 🚀 快速访问常用的 React 开发资源
+- 📁 自定义网站分类和收藏管理
+- 🔍 强大的搜索功能
+- 💾 支持导入/导出收藏数据
+- 🌙 支持深色/浅色主题
+- 🔄 跨设备数据同步
+- ⌨️ 快捷键支持
 
-### react and utils
+## 技术栈
 
-- [React](https://react.docschina.org/)
-- [Lodash](https://www.lodashjs.com/)
-- [AHooks](https://ahooks.js.org/zh-CN/)
-- [React-Use](https://github.com/zenghongtu/react-use-chinese/blob/master/README.md)
-- [JS 框架语法特性对比](https://component-party.lainbo.com/)
-- [ES6 -书栈网](https://www.bookstack.cn/read/es6-3rd/README.md)
-- [github 代码检索工具](https://sourcegraph.com/search)
+- React 18
+- TypeScript
+- Material UI
+- Chrome Extension Manifest V3
+- WXT (Web Extension Tools)
 
-### TS
+## 开发指南
 
-- [TS 中文网](https://ts.nodejs.cn/docs/handbook/utility-types.html)
-- [Type-Hero](https://typehero.dev/aot-2023)
-- [Type-Challenge](https://github.com/type-challenges/type-challenges/blob/main/README.zh-CN.md)
+### 环境要求
 
-### react 好文
+- Node.js >= 16
+- npm 或 yarn
 
-- [类组件和函数组件有什么不同?](https://overreacted.io/how-are-function-components-different-from-classes/)
-- [为什么钩子?](https://geekdaxue.co/read/garronge@tyarry/rz5yor)
-- [React-技术揭秘-卡颂](https://react.iamkasong.com/)
+### 安装依赖
 
-### 前端代码规范
+```bash
+yarn install
+```
 
-- [状态管理规范](https://jdf2e.github.io/jdc_fe_guide/docs/react/state/)
-- [HTML 标准](https://html.spec.whatwg.org/multipage/)
-- [PromiseA+](https://promisesaplus.com/)
+### 开发模式
 
-### AI
+```bash
+yarn dev
+```
 
-- [Poe](https://poe.com/)
-- [通义千问](https://tongyi.aliyun.com/qianwen/)
-- [文心一言](https://yiyan.baidu.com/)
+### 构建扩展
 
-### 知名文档导航
+```bash
+yarn build
+```
 
-- [印记中文](https://www.docschina.org/)
+### 打包扩展
 
-### 开源项目趋势
+```bash
+yarn zip
+```
 
-- [Github Trending](https://github.com/trending)
-- [js 生态调查报告](https://2022.stateofjs.com/en-US/)
+## 项目结构
 
-### AI 移动端调试工具
+```
+├── assets/           # 静态资源
+├── components/       # React 组件
+├── entrypoints/     # 扩展入口点
+│   ├── background/  # Service Worker
+│   ├── popup/       # 弹出窗口
+│   └── content/     # 内容脚本
+├── public/          # 公共资源
+└── types/           # TypeScript 类型定义
+```
 
-- [vConsole](https://github.com/Tencent/vConsole)
+## 贡献指南
+
+1. Fork 项目
+2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 创建 Pull Request
+
+## 许可证
+
+MIT License

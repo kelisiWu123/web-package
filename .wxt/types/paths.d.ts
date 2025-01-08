@@ -23,6 +23,8 @@ declare module "wxt/browser" {
     | "/icon/wd.png"
     | "/icon/wenjianjia.png"
     | "/icon/wy.png"
+    | "/icons/icon.svg"
+    | "/manifest.json"
     | "/popup.html"
     | "/wxt.svg"
   type HtmlPublicPath = Extract<PublicPath, `${string}.html`>
